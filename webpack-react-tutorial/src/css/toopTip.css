@@ -1,0 +1,140 @@
+.tip{
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+    min-width: 10px;
+    height: 28px;
+    border:1px solid #ff9441;
+    border-radius:8px;
+    min-width: 20px;
+    width: auto;
+    align-content: center;
+    display: none;
+   /* display: inline-block !important;*/
+    position: absolute;
+    zoom: 2;
+
+    /*display: inline;*/
+}
+
+
+
+.tip .inner {
+
+    background-color: #FFF;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #ff9441;
+    position: relative;
+    /*left: 145px;
+    top: -3.5px;*/
+    transform: rotate(45deg);
+    /*border-right: 0;
+    border-bottom: 0;*/
+    padding: 0;
+    margin: 0;
+
+}
+
+.tip .top,.tip .tl,.tip .tr{
+    border-left: 0;
+    border-top: 0;
+}
+.box-tl,.box-tr,.box-top{
+    top:5px;
+}
+
+.tip .top{
+    position: absolute; left: 45%; bottom: -3.5px;
+}
+
+.box-top{
+    left: 45%;
+}
+.tip .tl{
+    position: absolute; left: 20%; bottom: -3.5px;
+}
+.box-tl{
+    left: 5%;
+}
+.tip .tr{
+    position: absolute; right: 20%; bottom: -3.5px;
+}
+.box-tr{
+    right: 5%;
+}
+
+.tip .left{
+    position: absolute; right: -3.5px; bottom: 40%;
+    border-left: 0;
+    border-bottom: 0;
+}
+.box-left{
+
+    left: 5%;
+    top:40%;
+
+}
+.tip .right{
+    position: absolute; left: -3.5px; bottom: 40%;
+    border-right: 0;
+    border-top: 0;
+}
+.box-right{
+
+    right: 5%;
+    top:40%;
+
+}
+
+.tip .bottom{
+    position: absolute; top: -3.5px; left: 45%;
+    border-right: 0;
+    border-bottom: 0;
+}
+.box-bottom{
+
+    left: 45%;
+    bottom:5%;
+
+}
+.box p{
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.tooptip{
+
+    margin-top: 100px;
+
+}
+
+.text{
+
+    padding: 0;
+    margin-top: 5px;
+
+}
+
+.box{
+
+    padding: 0;
+    margin: 0;
+    border: 1px solid #DDD;
+    width: 100px;
+    align-content: center;
+    position: absolute;
+
+}
+.tooptip{
+
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: white;
+
+}
